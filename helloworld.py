@@ -20,3 +20,7 @@ def add(num0 , num1):
 
 #调用add函数
 print('100+200=',add(100,200))
+
+#main函数 （也是程序的执行开始）
+if __name__ == "__main__":
+    print("main 函数的执行")
