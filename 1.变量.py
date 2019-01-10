@@ -29,3 +29,13 @@ print(type(num1))
 print(type(num2))
 print(type(num3))
 print(type(str1))
+
+# 内存地址
+num1=100
+num2=200
+num3=100
+print('num1',id(num1))
+print('num2',id(num2))
+print('num3',id(num3))
+# 发现num1和num3地址一样，python相同的值只存一份
+
