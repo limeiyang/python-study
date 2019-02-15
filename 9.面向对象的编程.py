@@ -163,7 +163,6 @@ class Student(SchoolMember):
     def tell(self):
         SchoolMember.tell(self)
         print('Marks: "%d"' % self.marks)
-
 t = Teacher('Mrs. Shrividya', 40, 30000)
 s = Student('Swaroop', 22, 75)
 print # prints a blank line
