@@ -23,6 +23,11 @@ dic01 = {"001":["fdsf"],"002":["fdsf"],"003":["fdsf"]}
 print(dic01)
 #Key值：可以允许：String类型，整型，浮点型，序列
 # value值：没有限制
+# 【4】===清空字典====
+dic01.clear()
+print(dic01,dic01.clear())
+
+
 
 
 
